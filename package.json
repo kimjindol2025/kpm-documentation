@@ -1,0 +1,47 @@
+{
+  "name": "kpm-documentation",
+  "version": "1.0.0",
+  "description": "KPM (Kim Package Manager) 완전 가이드 및 API 문서",
+  "main": "README.md",
+  "type": "module",
+  "keywords": [
+    "kpm",
+    "package-manager",
+    "kim",
+    "documentation",
+    "guide",
+    "api"
+  ],
+  "author": "Kim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gogs.dclub.kr/kim/kpm-documentation.git"
+  },
+  "docs": {
+    "README": "프로젝트 개요 및 빠른 시작",
+    "GUIDE": "완전한 사용 가이드 및 명령어 설명",
+    "EXAMPLES": "실제 사용 사례 및 예제 스크립트",
+    "API": "레지스트리 API 스펙 및 직접 접근 방법",
+    "FAQ": "자주 묻는 질문 및 트러블슈팅"
+  },
+  "structure": {
+    "total_packages": 9673,
+    "categories": [
+      "Infrastructure",
+      "Development Tools",
+      "AI/ML",
+      "Database",
+      "Web",
+      "API"
+    ],
+    "registry_location": "/home/kimjin/kpm-registry/registry.json",
+    "modules_location": "/home/kimjin/kim_modules",
+    "cli_tool": "/home/kimjin/.local/bin/kpm"
+  },
+  "resources": {
+    "registry": "https://gogs.dclub.kr",
+    "webhook": "http://localhost:40013",
+    "kimdb": "http://192.168.45.253:40000"
+  }
+}
